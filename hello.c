@@ -1,11 +1,10 @@
-#include<stdio.h>
-#include<string.h>
-int main()
+#include<iostream.h>
+#include<conio.h>
+void main()
 {
-int i;
-for(i=0;i<=4;i++)
+int num=5;
+for(int i=0;i<5;i++)
 {
-printf("hello");
-return 0;
+cout<<"hello world...!!"<<endl;
 }
 }
