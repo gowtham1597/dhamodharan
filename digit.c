@@ -1,11 +1,12 @@
 #include <stdio.h>
+#include<iostream.h>
 int main()
 {
     long long n;
     int count = 0;
 
-    printf("Enter an integer: ");
-    scanf("%lld", &n);
+    cout<<"Enter an integer:";
+    cin>>n;
 
     while(n != 0)
     {
@@ -14,4 +15,6 @@ int main()
         ++count;
     }
 
-    printf("Number of digits: %d", count);
+    cout<<"Number of digits:"<<count;
+return 0;
+}
